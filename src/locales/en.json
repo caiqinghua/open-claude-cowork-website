@@ -1,0 +1,169 @@
+{
+  "metadata": {
+    "title": "Open Claude Cowork - Desktop AI Assistant",
+    "description": "Bring Claude Code from terminal to desktop with visual AI collaboration experience. No Claude Max subscription required, supports Chinese LLMs."
+  },
+  "navigation": {
+    "features": "Features",
+    "advantages": "Advantages",
+    "techStack": "Tech Stack",
+    "quickStart": "Quick Start",
+    "github": "GitHub",
+    "download": "Download"
+  },
+  "hero": {
+    "badge": "Open Source Desktop AI Assistant",
+    "title": "Open Claude Cowork",
+    "subtitle": "Desktop AI Assistant",
+    "description": "Bring Claude Code from terminal to desktop with visual AI collaboration experience.",
+    "description2": "No Claude Max subscription required, supports Zhipu GLM, MiniMax, Kimi, DeepSeek and other Chinese LLMs.",
+    "getStarted": "Get Started",
+    "starOnGithub": "Star on GitHub",
+    "features": {
+      "aiPartner": {
+        "title": "AI Partner",
+        "description": "Code, Files, PPT, Research & Analysis"
+      },
+      "sessionManagement": {
+        "title": "Session Management",
+        "description": "History saved, resume anytime"
+      },
+      "permissionControl": {
+        "title": "Permission Control",
+        "description": "Full control over AI behavior"
+      }
+    }
+  },
+  "features": {
+    "title": "Core Features",
+    "subtitle": "Open Claude Cowork provides complete visual AI collaboration experience",
+    "items": {
+      "aiPartner": {
+        "title": "AI Partner",
+        "description": "Not just a GUI, but an AI assistant that can execute code, manage files, create PPTs, and analyze research. Supports any programming language with natural language task descriptions."
+      },
+      "sessionManagement": {
+        "title": "Session Management",
+        "description": "Create sessions with custom working directories and restore any historical conversation. Complete local session history (SQLite storage), supports secure deletion and automatic persistence."
+      },
+      "realtimeStreaming": {
+        "title": "Real-time Streaming",
+        "description": "Token-by-token streaming output to see Claude's reasoning process. Supports Markdown rendering and syntax highlighting, visual tool calls and status indicators."
+      },
+      "permissionControl": {
+        "title": "Tool Permission Control",
+        "description": "Sensitive operations require explicit approval, allow or deny by tool. Interactive decision panel gives you full control over Claude's behavior, ensuring safe and controllable AI operations."
+      },
+      "configReuse": {
+        "title": "Configuration Reuse",
+        "description": "Directly reuse ~/.claude/settings.json configuration, same API keys, base URL, models. Configure once, use everywhere, zero learning cost."
+      }
+    }
+  },
+  "cta": {
+    "title": "Ready to Get Started?",
+    "description": "Download Open Claude Cowork now and experience visual AI collaboration",
+    "downloadApp": "Download App",
+    "starOnGithub": "Star on GitHub"
+  },
+  "footer": {
+    "description": "Bring Claude Code from terminal to desktop with visual AI collaboration experience.",
+    "resources": "Resources",
+    "community": "Community",
+    "features": "Features",
+    "advantages": "Advantages",
+    "techStack": "Tech Stack",
+    "quickStart": "Quick Start",
+    "github": "GitHub",
+    "issues": "Issue Tracker",
+    "license": "MIT License",
+    "copyright": "© 2025 Open Claude Cowork. Open Source Project",
+    "madeWith": "Made with ❤️ by caiqinghua"
+  },
+  "language": {
+    "switchTo": "中文",
+    "current": "English"
+  },
+  "advantages": {
+    "title": "Why Choose Open Claude Cowork?",
+    "subtitle": "Improvements and advantages over Claude Code",
+    "items": {
+      "noSubscription": {
+        "title": "No Claude Max Subscription",
+        "claudeCode": "Requires Claude Max subscription",
+        "openClaude": "Supports Chinese LLMs, lower cost"
+      },
+      "visualInterface": {
+        "title": "Visual Interface",
+        "claudeCode": "Terminal only",
+        "openClaude": "Desktop graphical interface, more user-friendly"
+      },
+      "modelSupport": {
+        "title": "Model Support",
+        "claudeCode": "Claude models only",
+        "openClaude": "GLM 4.7, MiniMax 2.1, Kimi, DeepSeek, etc."
+      },
+      "persistence": {
+        "title": "Session Persistence",
+        "claudeCode": "No session history",
+        "openClaude": "Complete history, resume anytime"
+      },
+      "permissionControl": {
+        "title": "Tool Permission Control",
+        "claudeCode": "No permission management",
+        "openClaude": "Sensitive operations require explicit authorization"
+      }
+    },
+    "compatible": "100% compatible with Claude Code configuration",
+    "configPath": "~/.claude/settings.json"
+  },
+  "techStack": {
+    "title": "Tech Stack",
+    "subtitle": "Built on modern open-source technologies",
+    "items": {
+      "framework": {
+        "category": "Framework & Runtime",
+        "technologies": ["Electron 39", "React 19", "Vite"]
+      },
+      "ui": {
+        "category": "Styling & UI",
+        "technologies": ["Tailwind CSS 4", "ShadcnUI", "Lucide Icons"]
+      },
+      "data": {
+        "category": "State & Data",
+        "technologies": ["Zustand", "better-sqlite3 (WAL)", "Prisma"]
+      },
+      "ai": {
+        "category": "AI Core",
+        "technologies": ["@anthropic-ai/claude-agent-sdk", "Anthropic API"]
+      }
+    },
+    "buildTools": "Build Tools",
+    "tools": ["electron-builder", "TypeScript", "ESLint"]
+  },
+  "quickStart": {
+    "title": "Quick Start",
+    "subtitle": "4 steps to complete installation and configuration",
+    "steps": {
+      "clone": {
+        "title": "Clone Repository",
+        "command": "git clone https://github.com/caiqinghua/open-claude-cowork.git"
+      },
+      "install": {
+        "title": "Install Dependencies",
+        "command": "cd open-claude-cowork && npm install"
+      },
+      "config": {
+        "title": "Configure Claude",
+        "command": "# Copy Claude Code configuration\ncp ~/.claude/settings.json ./settings.json"
+      },
+      "start": {
+        "title": "Start Application",
+        "command": "npm start"
+      }
+    },
+    "tip": "💡 Tip:",
+    "tipDescription": "Make sure Node.js 18+ and npm are installed. To use Chinese LLMs, modify the base_url and api_key in settings.json.",
+    "copyCommand": "Copy command"
+  }
+}

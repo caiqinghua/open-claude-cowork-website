@@ -1,0 +1,169 @@
+{
+  "metadata": {
+    "title": "Open Claude Cowork - Desktop AI Assistant",
+    "description": "将 Claude Code 从终端带到桌面,可视化 AI 协作体验。无需 Claude Max 订阅,支持国产大模型。"
+  },
+  "navigation": {
+    "features": "功能特性",
+    "advantages": "优势对比",
+    "techStack": "技术栈",
+    "quickStart": "快速开始",
+    "github": "GitHub",
+    "download": "下载"
+  },
+  "hero": {
+    "badge": "开源桌面 AI 助手",
+    "title": "Open Claude Cowork",
+    "subtitle": "Desktop AI Assistant",
+    "description": "将 Claude Code 从终端带到桌面,提供可视化 AI 协作体验。",
+    "description2": "无需 Claude Max 订阅,支持智谱 GLM、MiniMax、Kimi、DeepSeek 等国产大模型。",
+    "getStarted": "立即开始",
+    "starOnGithub": "Star on GitHub",
+    "features": {
+      "aiPartner": {
+        "title": "AI 协作伙伴",
+        "description": "代码、文件、PPT、分析研究"
+      },
+      "sessionManagement": {
+        "title": "会话管理",
+        "description": "历史保存,随时恢复"
+      },
+      "permissionControl": {
+        "title": "权限控制",
+        "description": "完全掌控 AI 行为"
+      }
+    }
+  },
+  "features": {
+    "title": "核心功能特性",
+    "subtitle": "Open Claude Cowork 提供完整的可视化 AI 协作体验",
+    "items": {
+      "aiPartner": {
+        "title": "AI 协作伙伴",
+        "description": "不仅是 GUI,更是可执行代码、管理文件、创作 PPT、分析研究的 AI 助手。支持任意编程语言,用自然语言描述任务即可执行。"
+      },
+      "sessionManagement": {
+        "title": "会话管理",
+        "description": "创建自定义工作目录的会话,恢复任意历史对话。完整的本地会话历史(SQLite 存储),支持安全删除和自动持久化。"
+      },
+      "realtimeStreaming": {
+        "title": "实时流式输出",
+        "description": "逐 token 流式输出,查看 Claude 的推理过程。支持 Markdown 渲染及语法高亮,可视化工具调用及状态指示器。"
+      },
+      "permissionControl": {
+        "title": "工具权限控制",
+        "description": "敏感操作需明确批准,按工具允许或拒绝。交互式决策面板,完全控制 Claude 的行为,确保 AI 操作安全可控。"
+      },
+      "configReuse": {
+        "title": "配置复用",
+        "description": "直接复用 ~/.claude/settings.json 配置,相同的 API keys、base URL、模型。一次配置,处处使用,零学习成本。"
+      }
+    }
+  },
+  "cta": {
+    "title": "准备开始了吗?",
+    "description": "立即下载 Open Claude Cowork,体验可视化 AI 协作",
+    "downloadApp": "下载应用",
+    "starOnGithub": "Star on GitHub"
+  },
+  "footer": {
+    "description": "将 Claude Code 从终端带到桌面,提供可视化 AI 协作体验。",
+    "resources": "资源",
+    "community": "社区",
+    "features": "功能特性",
+    "advantages": "优势对比",
+    "techStack": "技术栈",
+    "quickStart": "快速开始",
+    "github": "GitHub",
+    "issues": "问题反馈",
+    "license": "MIT License",
+    "copyright": "© 2025 Open Claude Cowork. 开源项目",
+    "madeWith": "Made with ❤️ by caiqinghua"
+  },
+  "language": {
+    "switchTo": "English",
+    "current": "中文"
+  },
+  "advantages": {
+    "title": "为什么选择 Open Claude Cowork?",
+    "subtitle": "对比 Claude Code 的改进和优势",
+    "items": {
+      "noSubscription": {
+        "title": "无需 Claude Max 订阅",
+        "claudeCode": "需要 Claude Max 订阅",
+        "openClaude": "支持国产大模型,降低成本"
+      },
+      "visualInterface": {
+        "title": "可视化界面",
+        "claudeCode": "仅限终端操作",
+        "openClaude": "桌面图形化界面,更友好"
+      },
+      "modelSupport": {
+        "title": "模型支持",
+        "claudeCode": "仅 Claude 模型",
+        "openClaude": "GLM 4.7, MiniMax 2.1, Kimi, DeepSeek 等"
+      },
+      "persistence": {
+        "title": "会话持久化",
+        "claudeCode": "会话不保存",
+        "openClaude": "完整历史记录,随时恢复"
+      },
+      "permissionControl": {
+        "title": "工具权限控制",
+        "claudeCode": "无权限管理",
+        "openClaude": "敏感操作需明确授权"
+      }
+    },
+    "compatible": "100% 兼容 Claude Code 配置文件",
+    "configPath": "~/.claude/settings.json"
+  },
+  "techStack": {
+    "title": "技术栈",
+    "subtitle": "基于现代化的开源技术栈构建",
+    "items": {
+      "framework": {
+        "category": "框架与运行时",
+        "technologies": ["Electron 39", "React 19", "Vite"]
+      },
+      "ui": {
+        "category": "样式与UI",
+        "technologies": ["Tailwind CSS 4", "ShadcnUI", "Lucide Icons"]
+      },
+      "data": {
+        "category": "状态与数据",
+        "technologies": ["Zustand", "better-sqlite3 (WAL)", "Prisma"]
+      },
+      "ai": {
+        "category": "AI 核心",
+        "technologies": ["@anthropic-ai/claude-agent-sdk", "Anthropic API"]
+      }
+    },
+    "buildTools": "构建工具",
+    "tools": ["electron-builder", "TypeScript", "ESLint"]
+  },
+  "quickStart": {
+    "title": "快速开始",
+    "subtitle": "4 步完成安装和配置",
+    "steps": {
+      "clone": {
+        "title": "克隆项目",
+        "command": "git clone https://github.com/caiqinghua/open-claude-cowork.git"
+      },
+      "install": {
+        "title": "安装依赖",
+        "command": "cd open-claude-cowork && npm install"
+      },
+      "config": {
+        "title": "配置 Claude",
+        "command": "# 复制 Claude Code 配置\ncp ~/.claude/settings.json ./settings.json"
+      },
+      "start": {
+        "title": "启动应用",
+        "command": "npm start"
+      }
+    },
+    "tip": "💡 提示:",
+    "tipDescription": "确保已安装 Node.js 18+ 和 npm。如需使用国产大模型,请修改 settings.json 中的 base_url 和 api_key 配置。",
+    "copyCommand": "复制命令"
+  }
+}
