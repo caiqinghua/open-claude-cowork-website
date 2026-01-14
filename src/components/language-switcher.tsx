@@ -2,7 +2,7 @@
 
 import { useLocale } from 'next-intl';
 import { usePathname, useRouter } from 'next/navigation';
-import { locales, localeNames, type Locale } from '@/i18n/config';
+import { locales, localeNames, defaultLocale, type Locale } from '@/i18n/config';
 import { Button } from '@/components/ui/button';
 
 export function LanguageSwitcher() {
@@ -11,9 +11,32 @@ export function LanguageSwitcher() {
   const pathname = usePathname();
 
   const switchLocale = (newLocale: Locale) => {
-    // Remove current locale from pathname
-    const pathnameWithoutLocale = pathname.replace(`/${locale}`, '').replace(`/${locale}`, '');
-    const newPathname = `/${newLocale}${pathnameWithoutLocale}`;
+    // If clicking the same locale, do nothing
+    if (newLocale === locale) return;
+
+    // Get pathname without locale prefix
+    let pathnameWithoutLocale = pathname;
+
+    // Check if pathname starts with a locale prefix
+    const localePattern = /^\/([a-z]{2})(\/|$)/;
+    const match = pathname.match(localePattern);
+
+    if (match) {
+      // Remove the locale prefix
+      pathnameWithoutLocale = pathname.slice(match[1].length + 1);
+    }
+
+    // Ensure pathnameWithoutLocale starts with /
+    if (!pathnameWithoutLocale.startsWith('/')) {
+      pathnameWithoutLocale = '/' + pathnameWithoutLocale;
+    }
+
+    // Build new pathname
+    // Default locale (en) doesn't get a prefix
+    const newPathname = newLocale === defaultLocale
+      ? pathnameWithoutLocale
+      : `/${newLocale}${pathnameWithoutLocale}`;
+
     router.push(newPathname);
   };
 
