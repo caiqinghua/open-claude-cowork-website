@@ -35,23 +35,24 @@
     }
   },
   "clawshopping": {
-    "badge": "限时早期活动",
-    "title": "抢先体验，赚取未来财富",
-    "description": "访问 ClawShopping.com，在早期阶段开始累积积分。早期参与者将获得丰厚奖励，未来积分可兑换潜在代币！",
+    "badge": "认识 Agent Computer",
+    "title": "TuringAI，你的 Agent Computer",
+    "description": "TuringAI 是一个面向 coding、research、browser tasks 和 recurring workflows 的 agent computer。它把 agent、文件、skills 和 automations 放进同一个开箱即用的工作空间。",
     "bonus1": {
-      "title": "早期积分奖励",
-      "desc": "首波用户享有多倍积分加成"
+      "title": "浏览器里的桌面感",
+      "desc": "不是拼凑的网页工具，而是开箱即用的原生工作台体验"
     },
     "bonus2": {
-      "title": "未来代币空投",
-      "desc": "积分可能兑换为平台代币"
+      "title": "Skills + Automations",
+      "desc": "快速加载可复用工作流，也能稳定触发周期性任务"
     },
     "bonus3": {
-      "title": "独家权益",
-      "desc": "早期用户享有平台特权"
+      "title": "私有安全沙箱",
+      "desc": "让 agent 在隔离、可控、安全的环境里执行真实任务"
     },
-    "cta": "立即访问 ClawShopping.com",
-    "limited": "⏰ 早期机会有限，先到先得"
+    "cta": "了解 TuringAI",
+    "discordCta": "加入 Discord",
+    "limited": "先去 tulingbc.com 看产品，再进 Discord 和早期社区一起共建"
   },
   "features": {
     "title": "核心功能特性",

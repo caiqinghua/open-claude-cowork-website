@@ -35,23 +35,24 @@
     }
   },
   "clawshopping": {
-    "badge": "Limited Early Access",
-    "title": "Get Early, Earn Future Rewards",
-    "description": "Visit ClawShopping.com to start earning points during the early phase. Early adopters get exclusive rewards, with future potential to convert points into tokens!",
+    "badge": "Meet The Agent Computer",
+    "title": "TuringAI: Your Agent-Native Computer",
+    "description": "TuringAI is an agent-native computer for coding, research, browser tasks, and recurring workflows. It brings your agent, files, skills, and automations into one workspace that feels ready from day one.",
     "bonus1": {
-      "title": "Early Point Bonuses",
-      "desc": "First wave users enjoy multiplier bonuses"
+      "title": "Desktop Feel In Browser",
+      "desc": "A focused workspace that feels native from the first session"
     },
     "bonus2": {
-      "title": "Future Token Airdrop",
-      "desc": "Points may be convertible to platform tokens"
+      "title": "Skills + Automations",
+      "desc": "Load reusable workflows fast and trigger recurring work with confidence"
     },
     "bonus3": {
-      "title": "Exclusive Perks",
-      "desc": "Early users get special platform privileges"
+      "title": "Private Sandbox",
+      "desc": "Run agent tasks in an isolated, secure environment you control"
     },
-    "cta": "Visit ClawShopping.com Now",
-    "limited": "⏰ Limited early opportunity, first come first served"
+    "cta": "Explore TuringAI",
+    "discordCta": "Join Discord",
+    "limited": "See the product on tulingbc.com, then join Discord to build with the early community"
   },
   "features": {
     "title": "Core Features",

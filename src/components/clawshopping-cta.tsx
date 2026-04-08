@@ -46,16 +46,39 @@ export function ClawShoppingCTA() {
               </div>
             </div>
 
+            <div className="mb-8 flex flex-wrap justify-center gap-2">
+              {['Coding', 'Research', 'Browser Tasks', 'Automations'].map((item) => (
+                <span
+                  key={item}
+                  className="rounded-full border border-blue-100 bg-blue-50 px-4 py-2 text-sm font-medium text-blue-700"
+                >
+                  {item}
+                </span>
+              ))}
+            </div>
+
             {/* CTA Button */}
-            <Link
-              href="https://clawshopping.com?utm_source=open-claude-cowork&utm_medium=website&utm_campaign=hero_cta"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white px-10 py-4 rounded-xl font-semibold text-lg hover:shadow-xl hover:scale-105 transition-all duration-200"
-            >
-              {t('cta')}
-              <span className="text-xl">→</span>
-            </Link>
+            <div className="flex flex-col items-center justify-center gap-4 md:flex-row">
+              <Link
+                href="https://tulingbc.com?utm_source=open-claude-cowork&utm_medium=website&utm_campaign=hero_cta"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white px-10 py-4 rounded-xl font-semibold text-lg hover:shadow-xl hover:scale-105 transition-all duration-200"
+              >
+                {t('cta')}
+                <span className="text-xl">→</span>
+              </Link>
+
+              <Link
+                href="https://discord.gg/4MgVR6SG"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 rounded-xl border border-blue-200 bg-white px-8 py-4 font-semibold text-blue-700 hover:border-blue-300 hover:bg-blue-50"
+              >
+                {t('discordCta')}
+                <span className="text-xl">↗</span>
+              </Link>
+            </div>
 
             {/* Limited Time Notice */}
             <p className="text-sm text-gray-500 mt-4">
