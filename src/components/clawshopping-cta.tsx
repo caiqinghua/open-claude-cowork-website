@@ -60,7 +60,7 @@ export function ClawShoppingCTA() {
             {/* CTA Button */}
             <div className="flex flex-col items-center justify-center gap-4 md:flex-row">
               <Link
-                href="https://tulingbc.com?utm_source=open-claude-cowork&utm_medium=website&utm_campaign=hero_cta"
+                href="https://openagen.com?utm_source=open-claude-cowork&utm_medium=website&utm_campaign=hero_cta"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white px-10 py-4 rounded-xl font-semibold text-lg hover:shadow-xl hover:scale-105 transition-all duration-200"

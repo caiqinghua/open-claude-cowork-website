@@ -36,8 +36,8 @@
   },
   "clawshopping": {
     "badge": "认识 Agent Computer",
-    "title": "TuringAI，你的 Agent Computer",
-    "description": "TuringAI 是一个面向 coding、research、browser tasks 和 recurring workflows 的 agent computer。它把 agent、文件、skills 和 automations 放进同一个开箱即用的工作空间。",
+    "title": "OpenAgen，你的 Agent Computer",
+    "description": "OpenAgen 是一个面向 coding、research、browser tasks 和 recurring workflows 的 agent computer。它把 agent、文件、skills 和 automations 放进同一个开箱即用的工作空间。",
     "bonus1": {
       "title": "浏览器里的桌面感",
       "desc": "不是拼凑的网页工具，而是开箱即用的原生工作台体验"
@@ -50,9 +50,9 @@
       "title": "私有安全沙箱",
       "desc": "让 agent 在隔离、可控、安全的环境里执行真实任务"
     },
-    "cta": "了解 TuringAI",
+    "cta": "了解 OpenAgen",
     "discordCta": "加入 Discord",
-    "limited": "先去 tulingbc.com 看产品，再进 Discord 和早期社区一起共建"
+    "limited": "先去 openagen.com 看产品，再进 Discord 和早期社区一起共建"
   },
   "features": {
     "title": "核心功能特性",
